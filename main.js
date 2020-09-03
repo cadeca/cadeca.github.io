@@ -49,7 +49,7 @@ const routes = [
     { path: 'landing', component: _pages_landing_page_landing_page_component__WEBPACK_IMPORTED_MODULE_2__["LandingPageComponent"] },
     { path: 'about', component: _pages_about_page_about_page_component__WEBPACK_IMPORTED_MODULE_3__["AboutPageComponent"] },
     { path: 'contact', component: _pages_contact_page_contact_page_component__WEBPACK_IMPORTED_MODULE_4__["ContactPageComponent"] },
-    { path: '', redirectTo: '/landingt', pathMatch: 'full' },
+    { path: '', redirectTo: '/landing', pathMatch: 'full' },
     {
         path: '**', redirectTo: '/landing'
     }
